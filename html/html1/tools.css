@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    padding: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-style: 25px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 125px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+body {
+    justify-content: space-between;
+    background-image: url(https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, .3);
+    color:black;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.list {
+    background: #fff;
+    width: 450px;
+    padding: 15px;
+    border-radius: 10px;
+    
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+
+.wrapper {
+    background: #fff;
+    width: 450px;
+    border-radius: 16px;
+   
+}
+
+.form {
+    padding: 25px 25px;
+}
+
+.form header {
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.form form {
+    margin: 20px 0;
+}
+
+.form .name-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .field label {
+    margin-bottom: 2px;
+}
+
+.form .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form .field input {
+    outline: none;
+}
+
+.form .input input:focus,
+.form .input input:valid {
+    border-color: indigo;
+}
+
+.form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.form .image input {
+    font-size: 17px;
+}
+
+.form .button input {
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background: #0079FF;
+    color: #fff;
+    border-radius: 5px;
+}
+#task-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+button {
+    
+    padding: 5px;
+}

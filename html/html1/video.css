@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover ;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white ;
+    text-shadow: black 5px;
+    letter-spacing: 2px;
+
+}
+
+.input-section {
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+
+.label-section {
+    font-size: 0.5cm;
+    color:#f0f0f0;
+}
+
+
+
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="file"] 
+
+
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.button-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.button-section button:hover {
+    background-color: aqua;
+}
+
+.data-container {
+    max-height: 300px;
+    /* Adjust the height as needed */
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #fff(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}
